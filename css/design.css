@@ -1,0 +1,15 @@
+a .navbar-brand .text-brand {
+    display: flex;
+    justify-content: flex-start;
+}
+#taz-logo {
+    margin-left: -6rem;
+}
+
+#navbarDefault {
+    margin-right: -30rem;
+}
+
+#taz-span {
+    padding-bottom: 0;
+}
