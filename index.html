@@ -8,12 +8,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-<<<<<<< HEAD
-  <link href="img/images/y1.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-=======
   <link  href="img/log.png" rel="icon" style="border-radius: 50%;">
->>>>>>> background
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -30,6 +25,15 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/design.css" rel="stylesheet">
+  <link href="css/service.css" rel="stylesheet">
+  <link href="css/homepage.css" rel="stylesheet">
+
+
+
+  <!-- <link href="css/header.css" rel="stylesheet"> -->
+        
+  
 
 </head>
 
@@ -46,7 +50,7 @@
         <span></span>
       </button>
       <a class="navbar-brand text-brand" href="index.html"><span><img src="img/taz.png" 
-        style="border-radius: 50%;">Taz <span style="color: rgb(200, 3, 5);">Technologies</span> </span></a>
+        style="border-radius: 50%; height: 2.5rem;">Taz <span style="color: rgb(192, 0, 0);">Technologies</span> </span></a>
       <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" 
         data-toggle="collapse"
         data-target="#navbarTogglerDemo01" aria-expanded="false">
@@ -80,7 +84,7 @@
 
   <!--/ Carousel Star /-->
   <div class="intro intro-carousel">
-    <div id="carousel" class="owl-carousel owl-theme">
+    <div id="carousel" class="owl-carousel owl-theme" >
       <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/backgroundb.jpg)">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
@@ -147,24 +151,24 @@
   <!--/ Services Star /-->
   <section class="section-services section-t8">
     <div class="container" id="services">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="title-wrap d-flex justify-content-between">
-            <div class="title-box">
-              <h2 class="service-title center" id="service-position">Our Services</h2>
-              <p id="service-content">
-                Taz technologies is a steadily growing and innovative ICT company serving clients in all countries and 
-                aiming to have a share on the African market.At Taz technologies we are committed at providing
-                dedicated professional services aimed at yielding solutions that suits your business.This includes
-                incorporating comprehensive research and analytic s to identify what you require and using our skills 
-                to aid in accelerating growth based on your business models. Our Vision is to excel in our areas of
-                operations and exceed customer expectations. Taz mission is to be the leading ICT company in Africa 
-                that integrates new ideas,quality service and customer satisfaction.
-            </p>
+        <div class="row">
+            <div class="col-md-12">
+              <div class="title-wrap d-flex justify-content-between">
+                <div class="title-box">
+                  <h2 class="service-title center" id="service-position">Our Services</h2>
+                  <p id="service-content">
+                    Taz technologies is a steadily growing and innovative ICT company serving clients in all countries and 
+                    aiming to have a share on the African market.At Taz technologies we are committed at providing
+                    dedicated professional services aimed at yielding solutions that suits your business.This includes
+                    incorporating comprehensive research and analytic s to identify what you require and using our skills 
+                    to aid in accelerating growth based on your business models. Our Vision is to excel in our areas of
+                    operations and exceed customer expectations. Taz mission is to be the leading ICT company in Africa 
+                    that integrates new ideas,quality service and customer satisfaction.
+                </p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
       <div class="row services-row">
         <div class="col-md-4">
           <div class="card-box-c foo">
@@ -216,19 +220,29 @@
   <hr class="hr-endofservice">
   <!--/ Services End /-->
 
-  <!--/ Property Star /-->
-  <section class="section-property section-t8"style="margin-top: 0px;" id="product">
-    <div class="container">
+
+  <!--/ product  /-->
+  <section id="flag-product" class="section-property section-t8"style="margin-top: 0px;  
+  padding-top: 0; display: flex; justify-content: center"
+   id="product">
+    <div  style=" column-fill: auto;">
           <div class="title-wrap d-flex justify-content-between">
             <div class="title-box">
-              <h2 class="title-a">Our Flagship Innovation</h2>
             </div>
           </div>
-            <div class="container">
-        <div class="row">
-          <div class="col-md-6 content-section brief-content-one">
+            <div   style="background-color: rgb(218, 237, 255);
+            ">
+        <div class="row" >
+      
+          <div class="col-md-6 div-item flag content-section brief-content-one" style="justify-content: center">
                 <div class="colored-line-left"></div>
-                <div class="brief-content-text">
+                <div class="brief-content-text" style="padding-left: 6rem;">
+                    <div class="title-wrap d-flex justify-content-between">
+                        <div class="title-box">
+                          <h2 class="title-a">Our Flagship Innovation</h2>
+                        </div>
+                      </div>
+                    
                     MPost is a patented technology enabling any mobile
                     phone user to transform their phones into a unique mobile
                     postal box.
@@ -248,11 +262,11 @@
                 </div>
 
             </div>
-            <!-- BRIEF IMAGE -->
-            <div class="col-md-6 brief-content-two">
-                <div class="brief-image-right">
-                    <img src="http://www.taztechnologies.com/wp-content/uploads/2019/01/mpost_logo.png "
-                        alt=" Our Flagship Innovation">
+            <!-- BRIEF video -->
+            
+                    <video class="col-md-6 item vid" id="vid1" style="background-size: auto; object-fit: cover;     
+                    padding-right: 1rem;  padding-left: 0; justify-content: flex-end" 
+                    src="img/mpostvid.mp4" controls=""></video>
                 </div>
             </div>
           </form>
@@ -367,9 +381,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="title-wrap d-flex justify-content-between">
+          <div >
             <div class="title-box">
-              <h2 class="title-a">Testimonials</h2>
+              <h2 class="client-h1" id="testimonial-title">Testimonials</h2>
             </div>
           </div>
         </div>
@@ -438,7 +452,7 @@
           </a>
       </div>
     </div>
-    <hr class="client-hr">
+    <!-- <hr class="client-hr"> -->
     
   </section>
 
@@ -600,6 +614,11 @@
   <div id="preloader"></div>
 
   <!-- JavaScript Libraries -->
+  <script>
+      document.getElementById('vid1').addEventListener('loadedmetadata', function() {
+    this.currentTime = 1;
+  }, false);
+    </script>
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/popper/popper.min.js"></script>
