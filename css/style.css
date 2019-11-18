@@ -97,7 +97,7 @@ a:hover {
 }
 
 .color-a {
-  color: #000000;
+  color: #ffffff;
 }
 
 .color-b {
@@ -352,7 +352,7 @@ a:hover {
 .overlay {
   position: absolute;
   top: 0;
-  left: 0px;
+  left: 0px;  njlksdo;dsfhjflhgjsslhgkghkjdhfjdhf
   padding: 0;
   height: 100%;
   width: 100%;
@@ -363,16 +363,11 @@ a:hover {
 .owl-theme .owl-dots {
   text-align: center;
   margin-top: 18px;
-  /* background-color: #00a5f9; */
 }
 
-/* .owl-theme .owl-dots .owl-dot {
-  /* display: inline-block; *
-} */
-
-/* .owl-theme .owl-dots .owl-dot span {
+.owl-theme .owl-dots .owl-dot span {
   width: 16px;
-  height: 5px;
+  height: 9px;
   margin: 5px 5px;
   background: #000000;
   border: 0px solid #000000;
@@ -383,13 +378,13 @@ a:hover {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #008ed6;
+  background-color: #2eca6a;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #008ed6;
+  background-color: #2eca6a;
   width: 35px;
-} */
+}
 
 .owl-arrow .owl-nav {
   position: absolute;
@@ -437,7 +432,7 @@ a:hover {
   display: inline-block;
   transition: all 0.6s ease-in-out;
   color: #ffffff;
-  background-color: #008ed6;
+  background-color: #2491d0;
   opacity: .9;
 }
 
@@ -449,7 +444,7 @@ a:hover {
 
 .nav-arrow-b .owl-arrow .owl-nav .owl-prev:hover,
 .nav-arrow-b .owl-arrow .owl-nav .owl-next:hover {
-  background-color: #008ed6;
+  background-color: #2491d0;
 }
 
 .nav-arrow-b .owl-arrow .owl-nav .owl-next {
@@ -467,7 +462,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #008ed6;
+  background: #2491d0;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -505,7 +500,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #008ed6;
+  border-top: 6px solid #2491d0;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -596,7 +591,7 @@ a:hover {
   width: 100%;
   height: 2px;
   z-index: 0;
-  background-color: #008ed6;
+  background-color: #2491d0;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: right;
@@ -632,7 +627,7 @@ a:hover {
 }
 
 .navbar-default.navbar-trans .nav-link:before {
-  background-color: #008ed6;
+  background-color: #2491d0;
 }
 
 .navbar-default.navbar-trans .nav-link:hover {
@@ -643,7 +638,7 @@ a:hover {
 .navbar-default.navbar-trans .active > .nav-link,
 .navbar-default.navbar-trans .nav-link.show,
 .navbar-default.navbar-trans .nav-link.active {
-  color: #008ed6;
+  color: #2491d0;
 }
 
 .navbar-default.navbar-reduce {
@@ -677,13 +672,13 @@ a:hover {
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item:hover {
   background-color: #ffffff;
-  color: #008ed6;
+  color: #2491d0;
   transition: all 500ms ease;
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item.active {
   background-color: #ffffff;
-  color: #008ed6;
+  color: #2491d0;
 }
 
 .navbar-default .dropdown:hover .dropdown-menu {
@@ -864,12 +859,16 @@ a:hover {
 /*======================================
 //--//-->   INTRO
 ======================================*/
-
-.intro.intro-carousel {
+.intro {
+  height: 100vh;
+  position: relative;
+  color: #ffffff;
+}
+/* .intro.intro-carousel {
   height: 85vh;
   position: relative;
-  /* background: linear-gradient(45deg,#014180 0%,#009cda 100%); */
-}
+  /* background: linear-gradient(45deg,#014180 0%,#009cda 100%); *
+} */
 
 .intro .owl-theme .owl-dots {
   position: absolute;
@@ -883,11 +882,11 @@ a:hover {
 }
 
 .intro .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #008ed6;
+  background-color: #2491d0;
 }
 
 .intro .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #008ed6;
+  background-color: #2491d0;
 }
 
 .intro .intro-item {
@@ -896,7 +895,7 @@ a:hover {
 
 .intro .carousel-item-a {
   position: relative;
-  height: 80vh;
+  height: 100vh;
 }
 
 .intro .carousel-item-a.bg-image {
@@ -914,7 +913,7 @@ a:hover {
 .intro .intro-body .price-a {
   color: #ffffff;
   padding: 1rem 1.5rem;
-  border: 2px solid #008ed6;
+  border: 2px solid #2491d0;
   border-radius: 50px;
   text-transform: uppercase;
   letter-spacing: 0.030em;
@@ -928,7 +927,7 @@ a:hover {
 
 .intro .intro-title-top {
   -webkit-animation-delay: .6s;
-  animation-delay: .9s;
+  animation-delay: .6s;
   margin-bottom: 0.1rem;
   font-size: .5rem;
   color: #ffffff;
@@ -964,7 +963,7 @@ a:hover {
 }
 
 .intro-single .title-single-box {
-  border-left: 3px solid #008ed6;
+  border-left: 3px solid #2491d0;
 }
 
 .intro-single .title-single-box .title-single {
@@ -1119,7 +1118,7 @@ a:hover {
 .price-a {
   color: #ffffff;
   padding: .6rem .8rem;
-  border: 2px solid #008ed6;
+  border: 2px solid #2491d0;
   border-radius: 50px;
   text-transform: uppercase;
   letter-spacing: 0.030em;
@@ -1129,7 +1128,7 @@ a:hover {
   width: 100%;
   position: absolute;
   z-index: 2;
-  background-color: #008ed6;
+  background-color: #2491d0;
 }
 
 .card-info {
@@ -1226,7 +1225,7 @@ a:hover {
 
 .card-header-b .category-b {
   font-size: .9rem;
-  background-color: #008ed6;
+  background-color: #2491d0;
   padding: .3rem .7rem;
   color: #313131;
   letter-spacing: 0.030em;
@@ -1277,7 +1276,7 @@ a:hover {
 
 .post-content .blockquote {
   padding: 1rem 3rem 1.7rem 3rem;
-  border-left: 3px solid #008ed6;
+  border-left: 3px solid #2491d0;
   color: #000000;
 }
 
@@ -1351,7 +1350,7 @@ a:hover {
   margin-top: 1rem;
   margin-bottom: 2rem;
   border: 0;
-  border-top: 3px solid #008ed6;
+  border-top: 3px solid #2491d0;
   width: 5rem;
 }
 .hr-service .center {
@@ -1391,7 +1390,7 @@ a:hover {
 }
 
 .service-heading {
-  color: #008ed6;
+  color: #2491d0;
 }
 
 .foo {
@@ -1409,7 +1408,7 @@ a:hover {
 
 .card-box-ico {
   padding: 1rem 3rem 1rem 2.5rem;
-  border: 5px solid #008ed6;
+  border: 5px solid #2491d0;
 }
 
 .card-box-ico span {
@@ -1526,7 +1525,7 @@ row .teamtaz {
 }
 
 .sinse-box {
-  background-color: #008ed6;
+  background-color: #2491d0;
   padding: 1rem 2rem;
   position: absolute;
   left: 15px;
@@ -1653,7 +1652,7 @@ row .teamtaz {
 
 .testimonial-ico span {
   font-size: 1.8rem;
-  background-color: #008ed6;
+  background-color: #2491d0;
   color: #ffffff;
   padding: .4rem 1rem;
   border-radius: 50px;
@@ -1699,9 +1698,9 @@ row .teamtaz {
 
 .section-footer {
   padding-top: 60px;
-  /* margin-top: 60px; */
-  background: #f3f3f3;
+  background: #202020;
   text-align: center;
+  /* box-shadow: 5px #255696; */
 }
 
 .section-footer ul {
@@ -1711,7 +1710,7 @@ row .teamtaz {
 .section-footer .item-list-a i {
   font-size: 18px;
   padding-right: 4px;
-  color: #008ed6;
+  color: #2491d0;
 }
 
 .section-footer .widget-a .w-title-a {
@@ -1719,7 +1718,7 @@ row .teamtaz {
 }
 
 footer {
-  background: #f3f3f3;
+  background: #030303;
   text-align: center;
   padding: 30px 0;
 }
@@ -1738,13 +1737,17 @@ footer .credits {
   padding: 10px;
 }
 
+.item-list-a a{
+  color: #ffffff;
+}
+
 /*======================================
 //--//-->   FORM INPUT
 ======================================*/
 
 .form-a #sendmessage {
-  color: #008ed6;
-  border: 1px solid #008ed6;
+  color: #2491d0;
+  border: 1px solid #2491d0;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1797,7 +1800,7 @@ footer .credits {
 
 .form-a .form-control:focus {
   box-shadow: none;
-  border-color: #008ed6;
+  border-color: #2491d0;
 }
 
 /*======================================
@@ -1816,17 +1819,22 @@ footer .credits {
 }
 
 .btn.btn-a {
-  background-color: #000000;
+  background-color: #2491d0;
   color: #ffffff;
+  border: 2px solid #2491d0;
+  border-radius: 12px;
+
 }
 
 .btn.btn-a:hover {
-  background-color: #008ed6;
+  background-color: #2491d0;
   color: #000000;
+  border-radius: 5px;
+
 }
 
 .btn.btn-b {
-  background-color: #008ed6;
+  background-color: #2491d0;
   color: #000000;
 }
 
@@ -1836,13 +1844,13 @@ footer .credits {
 }
 
 .btn.btn-b-n {
-  background-color: #008ed6;
+  background-color: #2491d0;
   color: #ffffff;
   border-radius: 0;
 }
 
 .btn.btn-b-n:hover {
-  background-color: #008ed6;
+  background-color: #2491d0;
   color: #ffffff;
 }
 
@@ -1892,7 +1900,7 @@ footer .credits {
   }
 
   .navbar-default .dropdown .dropdown-menu {
-    border-top: 4px solid #008ed6;
+    border-top: 4px solid #2491d0;
     border-left: 0;
     display: block;
     position: absolute;
@@ -2234,7 +2242,7 @@ footer .credits {
 
 .list-unstyled
 {
-  color: #000000;
+  color: #ffffff;
   transition: all .5s ease;
 }
 a {
@@ -2389,9 +2397,6 @@ div .col-sm-12 .col-md-6 .testimonial-col{
 
 .section-product {
   background-color: #e6e6e6;
-  /* margin: 4rem 0; */
-  /* padding: 2rem; */
-  /* padding-bottom: ; */
 }
 
 .flag-title {
@@ -2443,4 +2448,56 @@ div .col-sm-12 .col-md-6 .testimonial-col{
 
 .client {
   padding-top: 6rem;
+}
+#flag-a{
+    color: #000000;
+    transition: all .5s ease;
+  }
+#flag-a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.list-inline-item a {
+  color: #ffffff;
+  transition: all .5s ease;
+}
+.list-inline-item a:hover {
+  color: #2491d0;
+  text-decoration: none;
+}
+
+span .taz {
+  color: #2491d0;
+}
+
+span .technologies{
+  color: #c00000;
+}
+
+.map-hr {
+  margin: 1.5rem;
+  float: unset;
+  margin-left: 0;
+}
+
+.message-hr {
+  margin-top: 0;
+}
+
+.gmap_canvas {
+  padding-top: 1.5rem;
+}
+
+.button {
+  margin: 1rem 0;
+  margin-bottom: 4rem;
+}
+
+.logo-img {
+  border-radius: 50%;
+  height: 2.5rem;
+}
+
+.tech-red {
+  color: #c00000;
 }

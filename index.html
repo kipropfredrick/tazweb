@@ -33,28 +33,23 @@
 
   <!-- <link href="css/header.css" rel="stylesheet"> -->
         
-  
-
 </head>
-
 <body>
 
   <!--/ Nav Star /-->
   <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
     <div class="container">
+      <a class="navbar-brand text-brand" href="index.html">
+        <span><img src="img/taz.png" class="logo-img">Taz 
+          <span class="tech-red">Technologies</span>
+        </span>
+      </a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" 
-      data-target="#navbarDefault"
+        data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
         <span></span>
-      </button>
-      <a class="navbar-brand text-brand" href="index.html"><span><img src="img/taz.png" 
-        style="border-radius: 50%; height: 2.5rem;">Taz <span style="color: #c00000;">Technologies</span> </span></a>
-      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" 
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo01" aria-expanded="false">
-        <span class="fa fa-search" aria-hidden="true"></span>
       </button>
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
@@ -74,7 +69,7 @@
               <a class="nav-link color" href="#clients">Clients</a>
             </li>
           <li class="nav-item">
-            <a class="nav-link color" href="#contact">Contact</a>
+            <a class="nav-link color" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -250,7 +245,7 @@
                     We partner directly with host countries' national post office
                     and our solution is independent of any
                     telecommunications or internet service providers.<br>
-                     <a href="http://www.mpost.co.ke/" target="_blank"><br>learn more</a>
+                     <a id="flag-a" href="http://www.mpost.co.ke/" target="_blank"><br>learn more</a>
                     </p>
                 </div>
 
@@ -280,7 +275,7 @@
               <h2 class="client-h1">Our Team</h2>
             </div>
             <div class="title-link">
-              <a href="agents-grid.html">All Team
+              <a href="all-team.html">All Team
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -442,58 +437,6 @@
           </a>
       </div>
     </div>
-    <!-- <hr class="client-hr"> -->
-    
-  </section>
-
-  <section class="contact" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-        </div>
-        <div class="col-sm-12 section-t8">
-          <div class="row">
-            <div class="col-md-5">
-              <h1>SEND US A MESSAGE</h1><br>
-              <form action="mailto:info@taztechnologies.com">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <label for="name">Name</label>
-                  <input type="text" id="name" class="form-control " required="" placeholder="enter your name">
-                </div>
-                <div class="col-md-6 form-group">
-                  <label for="phone">Phone</label>
-                  <input type="tel" id="phone" class="form-control "placeholder="079-798-7569"name="phone"
-                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  <label for="email">Email</label>
-                  <input type="email" id="email" class="form-control "required placeholder="enter your email">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  <label for="message">Write Message</label>
-                  <textarea name="message" id="message" class="form-control " cols="30" rows="8" required=""></textarea>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="submit" value="Send Message" class="btn btn-primary px-3 py-3">
-                </div>
-              </div>
-            </form>
-            </div>
-           <div class="mapouter col-md-5" ><br><h1 style="align-text: center">FIND US HERE</h1><div class="gmap_canvas" style="float: right;"><iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=taztechnologies&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="1" scrolling="yes" marginheight="2" marginwidth="2"></iframe></div></div>
-      </div>
-    </div>
   </section>
 
   <!--/ Testimonials End /-->
@@ -528,13 +471,12 @@
                   </li>
                   <li class="item-list-a ">P.O BOX 0701701411-00100</li>
                   <li class="item-list-a ">Nairobi, Kenya</li>
-                  <li class="item-list-a color-a">Telephone</li>
-                  <li>
-                    <span>+254701701411  Nairobi</span><br>
-                    <span>+256417720101  Kampala</span>
+                  <li class="item-list-a color-a">Telephone : 
+                      <span>+254701701411,  Nairobi</span><br>
+                      <span>+256417720101,  Kampala</span>
                   </li>
                   <li>
-                    <span class="item-list-a color-a">Email</span><br>
+                    <span class="item-list-a color-a">Email : </span>
                     <span>info@taztechnologies.com</span> 
                   </li>
                 </ul>
@@ -553,10 +495,10 @@
                   <a href="about.html">Terms of Use</a>
                 </li>
                 <li class="item-list-a">
-                   <a href="https://mpost.co.ke/mpost/pickndrop.html"> About </a>
+                   <a href="https://mpost.co.ke/mpost/pickndrop.html"> Product </a>
                 </li>
                 <li class="item-list-a">
-                  <a href="contact.html">Contact</a>
+                  <a href="contact.html"> Contact</a>
                 </li>
               </ul>
             </div>
@@ -591,7 +533,7 @@
           <div class="copyright-footer">
             <p class="copyright color-text-a">
               &copy; Copyright <script>document.write(new Date().getFullYear());</script> 
-              <span class="color-a"> All Rights Reserved | TazTechnologies</span>.
+              <span class="color-a"> All Rights Reserved | <span class="taz">Taz</span><span class="technologies">Technologies</span></span>.
             </p>
           </div>
         </div>
