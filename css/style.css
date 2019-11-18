@@ -143,7 +143,7 @@ a:hover {
   transition: all .5s ease-in-out;
   padding-top: 19px;
   padding-bottom: 19px;
-  background-color: #00a1df;
+  background-color: #2491d0;
   color: #d8d8d8;
   opacity: 1;
 }
@@ -543,7 +543,7 @@ a:hover {
 
 .navbar-default {
   transition: all .5s ease-in-out;
-  background-color: #008ed6;
+  background-color: #ffffff;
   opacity: .9;
   padding-top: 28px;
   padding-bottom: 28px;
@@ -868,7 +868,7 @@ a:hover {
 .intro.intro-carousel {
   height: 85vh;
   position: relative;
-  background: linear-gradient(45deg,#014180 0%,#009cda 100%);
+  /* background: linear-gradient(45deg,#014180 0%,#009cda 100%); */
 }
 
 .intro .owl-theme .owl-dots {
@@ -1360,8 +1360,8 @@ a:hover {
 
 
 .hr-endofservice {
-  margin-top: 4rem;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(0,0,0,.1);
   box-shadow: 1px 1px 2px #fafafa;
@@ -2304,8 +2304,7 @@ a {
 }
 
 #client-container {
-  background-color: #b1b1b1;
-  /* margin: 0; */
+  background-color: #e6e6e6;
   text-align: center;
   padding-bottom: 3rem;
 }
@@ -2326,7 +2325,6 @@ a {
   padding-top: 2rem;
   padding-bottom: 1rem 0;
   text-align: center;
-  /* text-shadow: 2px 2px 8px rgb(97, 97, 97); */
 }
 
 .img-item {
@@ -2431,11 +2429,18 @@ div .col-sm-12 .col-md-6 .testimonial-col{
 
 
 
-#flag-product {
+#product {
   width: 100%;
   transition: width .35s ease-in-out;
 }
 
-#flag-product:hover {
+#product:hover {
   width: 100%;
+}
+.team {
+  padding-top: 5rem;
+}
+
+.client {
+  padding-top: 6rem;
 }
